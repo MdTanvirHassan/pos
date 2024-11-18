@@ -1,0 +1,162 @@
+[23-Oct-2024 05:20:18 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 5.6.40. in /home1/demo4axiz/public_html/pos/vendor/composer/platform_check.php on line 25
+[23-Oct-2024 11:21:37 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:157
+Stack trace:
+#0 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(950): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/CliDumper.php(580): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/CliDumper.php(268): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(799): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Cloner/Data.php(418): Symfony\Compone in /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 157
+[23-Oct-2024 11:21:52 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:157
+Stack trace:
+#0 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(950): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/CliDumper.php(580): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/CliDumper.php(268): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(799): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Cloner/Data.php(418): Symfony\Compone in /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 157
+[23-Oct-2024 11:21:54 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:157
+Stack trace:
+#0 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(950): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/CliDumper.php(580): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/CliDumper.php(268): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(799): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Cloner/Data.php(418): Symfony\Compone in /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 157
+[23-Oct-2024 11:21:57 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:157
+Stack trace:
+#0 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(950): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/CliDumper.php(580): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/CliDumper.php(268): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(799): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Cloner/Data.php(418): Symfony\Compone in /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 157
+[23-Oct-2024 11:22:00 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:157
+Stack trace:
+#0 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(950): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/CliDumper.php(580): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/CliDumper.php(268): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(799): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Cloner/Data.php(418): Symfony\Compone in /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 157
+[23-Oct-2024 11:22:07 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:157
+Stack trace:
+#0 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(950): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/CliDumper.php(580): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/CliDumper.php(268): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(799): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Cloner/Data.php(418): Symfony\Compone in /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 157
+[23-Oct-2024 11:22:07 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:157
+Stack trace:
+#0 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(950): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/CliDumper.php(580): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/CliDumper.php(268): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(799): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Cloner/Data.php(418): Symfony\Compone in /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 157
+[23-Oct-2024 11:22:08 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:157
+Stack trace:
+#0 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(950): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/CliDumper.php(580): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/CliDumper.php(268): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(799): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Cloner/Data.php(418): Symfony\Compone in /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 157
+[23-Oct-2024 11:22:11 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:157
+Stack trace:
+#0 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(950): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/CliDumper.php(580): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/CliDumper.php(268): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(799): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Cloner/Data.php(418): Symfony\Compone in /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 157
+[23-Oct-2024 11:22:13 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:157
+Stack trace:
+#0 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(950): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/CliDumper.php(580): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/CliDumper.php(268): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(799): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Cloner/Data.php(418): Symfony\Compone in /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 157
+[23-Oct-2024 11:22:13 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:157
+Stack trace:
+#0 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(950): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/CliDumper.php(580): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/CliDumper.php(268): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(799): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Cloner/Data.php(418): Symfony\Compone in /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 157
+[23-Oct-2024 11:22:13 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:157
+Stack trace:
+#0 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(950): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/CliDumper.php(580): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/CliDumper.php(268): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(799): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Cloner/Data.php(418): Symfony\Compone in /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 157
+[23-Oct-2024 11:22:14 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:157
+Stack trace:
+#0 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(950): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/CliDumper.php(580): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/CliDumper.php(268): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(799): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Cloner/Data.php(418): Symfony\Compone in /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 157
+[23-Oct-2024 11:22:14 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:157
+Stack trace:
+#0 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(950): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/CliDumper.php(580): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/CliDumper.php(268): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(799): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Cloner/Data.php(418): Symfony\Compone in /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 157
+[23-Oct-2024 11:22:15 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:157
+Stack trace:
+#0 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(950): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/CliDumper.php(580): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/CliDumper.php(268): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(799): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Cloner/Data.php(418): Symfony\Compone in /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 157
+[23-Oct-2024 11:22:15 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:157
+Stack trace:
+#0 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(950): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/CliDumper.php(580): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/CliDumper.php(268): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(799): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Cloner/Data.php(418): Symfony\Compone in /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 157
+[23-Oct-2024 11:22:16 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:157
+Stack trace:
+#0 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(950): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/CliDumper.php(580): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/CliDumper.php(268): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(799): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Cloner/Data.php(418): Symfony\Compone in /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 157
+[23-Oct-2024 11:22:16 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:157
+Stack trace:
+#0 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(950): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/CliDumper.php(580): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/CliDumper.php(268): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(799): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Cloner/Data.php(418): Symfony\Compone in /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 157
+[23-Oct-2024 11:22:16 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:157
+Stack trace:
+#0 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(950): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/CliDumper.php(580): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/CliDumper.php(268): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(799): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Cloner/Data.php(418): Symfony\Compone in /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 157
+[23-Oct-2024 11:22:17 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:157
+Stack trace:
+#0 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(950): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/CliDumper.php(580): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/CliDumper.php(268): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(799): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Cloner/Data.php(418): Symfony\Compone in /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 157
+[23-Oct-2024 11:22:17 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:157
+Stack trace:
+#0 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(950): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/CliDumper.php(580): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/CliDumper.php(268): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(799): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Cloner/Data.php(418): Symfony\Compone in /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 157
+[23-Oct-2024 11:22:17 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:157
+Stack trace:
+#0 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(950): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/CliDumper.php(580): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/CliDumper.php(268): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(799): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Cloner/Data.php(418): Symfony\Compone in /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 157
+[23-Oct-2024 11:22:18 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:157
+Stack trace:
+#0 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(950): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/CliDumper.php(580): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/CliDumper.php(268): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(799): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Cloner/Data.php(418): Symfony\Compone in /home1/demo4axiz/public_html/pos/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 157
