@@ -814,6 +814,49 @@
                                     <div class="col-md-4">
                                         <div class="form-group">
                                             @if($lims_pos_setting_data)
+                                            <input type="hidden" name="customer_id_hidden" value="">
+                                            {{-- <input type="hidden" name="customer_id_hidden" value="{{$lims_pos_setting_data->customer_id}}"> --}}
+                                            @endif
+                                            <div class="input-group pos">
+                                                @if($customer_active)
+                                                <select required name="customer_id" id="customer_id" class="selectpicker form-control" data-live-search="true" title="Select customer..." style="width: 100px">
+                                                <?php
+                                                  $deposit = [];
+                                                  $points = [];
+                                                ?>
+                                                <option value="">Select Customer</option>
+                                                @foreach($lims_customer_list as $customer)
+                                                    @php
+                                                      $deposit[$customer->id] = $customer->deposit - $customer->expense;
+
+                                                      $points[$customer->id] = $customer->points;
+                                                    @endphp
+                                                    <option value="{{$customer->id}}">{{$customer->name . ' (' . $customer->phone_number . ')'}}</option>
+                                                @endforeach
+                                                </select>
+                                                <button type="button" class="btn btn-default btn-sm" data-toggle="modal" data-target="#addCustomer"><i class="dripicons-plus"></i></button>
+                                                @else
+                                                <?php
+                                                  $deposit = [];
+                                                  $points = [];
+                                                ?>
+                                                <select required name="customer_id" id="customer_id" class="selectpicker form-control" data-live-search="true" title="Select customer...">
+                                                @foreach($lims_customer_list as $customer)
+                                                    @php
+                                                      $deposit[$customer->id] = $customer->deposit - $customer->expense;
+
+                                                      $points[$customer->id] = $customer->points;
+                                                    @endphp
+                                                    <option value="{{$customer->id}}">{{$customer->name . ' (' . $customer->phone_number . ')'}}</option>
+                                                @endforeach
+                                                </select>
+                                                @endif
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {{-- <div class="col-md-4">
+                                        <div class="form-group">
+                                            @if($lims_pos_setting_data)
                                             <input type="hidden" name="customer_id_hidden" value="{{$lims_pos_setting_data->customer_id}}">
                                             @endif
                                             <div class="input-group pos">
@@ -851,7 +894,7 @@
                                                 @endif
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> --}}
                                     <div class="col-md-12">
                                         <div class="search-box form-group">
                                             <input type="text" name="product_code_name" id="lims_productcodeSearch" placeholder="Scan/Search product by name/code" class="form-control"  />
